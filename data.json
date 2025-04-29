@@ -1,0 +1,90 @@
+[
+  {
+    "key": 0.6682837328623064,
+    "cycleName": "sdsd",
+    "endDate": "2025-03-17T23:00:00.000Z",
+    "status": "In Cycle",
+    "startDate": "2025-03-03T23:00:00.000Z"
+  },
+  {
+    "key": 0.1280540231960059,
+    "cycleName": "sdsdsdsd",
+    "penID": "001",
+    "endDate": "2025-03-09T23:00:00.000Z",
+    "status": "In Cycle",
+    "startDate": "2025-03-18T23:00:00.000Z"
+  },
+  {
+    "key": 0.7775143331792584,
+    "location": "PortHarcourt",
+    "endDate": "2025-03-17T23:00:00.000Z",
+    "status": "In Cycle",
+    "startDate": "2025-03-11T23:00:00.000Z"
+  },
+  {
+    "key": 0.6476938849548599,
+    "aveWeight1": "34",
+    "cellID": "204A",
+    "cycleName": "new dat",
+    "location": "PortHarcourt",
+    "moratlityNumber": "34",
+    "moratlityRate": "34",
+    "numberBroilers": "34",
+    "oldChicks": "76",
+    "penID": "001",
+    "weight1": "7",
+    "weight2": "8",
+    "weight3": "0",
+    "weight4": "9",
+    "weight5": "8",
+    "endDate": "2025-03-09T23:00:00.000Z",
+    "status": "In Cycle",
+    "startDate": "2025-03-18T23:00:00.000Z"
+  },
+  {
+    "key": 0.02565845752028073,
+    "aveWeight1": "78",
+    "cellID": "204A",
+    "cycleName": "new cycle",
+    "location": "PortHarcourt",
+    "moratlityNumber": "89",
+    "moratlityRate": "78",
+    "numberBroilers": "67",
+    "oldChicks": "898",
+    "penID": "001",
+    "weight1": "89",
+    "weight2": "890",
+    "weight3": "8",
+    "endDate": "2025-03-27T23:00:00.000Z",
+    "status": "In Cycle",
+    "startDate": "2025-03-11T23:00:00.000Z"
+  },
+  {
+    "key": 0.8106257184043568,
+    "aveWeight1": "34",
+    "cellID": "204A",
+    "cycleName": "new data",
+    "location": "PortHarcourt",
+    "moratlityNumber": "54",
+    "moratlityRate": "4",
+    "numberBroilers": "54",
+    "oldChicks": "2000",
+    "penID": "001",
+    "weight1": "34",
+    "endDate": "2025-03-10T23:00:00.000Z",
+    "status": "In Cycle",
+    "startDate": "2025-03-25T23:00:00.000Z"
+  },
+  {
+    "key": 0.556949121329307,
+    "cellID": "204A",
+    "cycleName": "001-202A-2025",
+    "location": "PortHarcourt",
+    "oldChicks": "2003",
+    "penID": "001",
+    "weight1": "2",
+    "endDate": null,
+    "status": "In Cycle",
+    "startDate": "2025-03-19T23:00:00.000Z"
+  }
+]
