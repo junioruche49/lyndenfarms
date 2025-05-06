@@ -18,7 +18,8 @@ function SigninForm() {
   const [errorMsg, setErrorMsg] = useState<undefined | string>(undefined);
   const router = useRouter();
 
-  const onFinish: FormProps<FieldType>["onFinish"] = () => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const onFinish: FormProps<FieldType>["onFinish"] = (values: any) => {
     setLoading(true);
     setErrorMsg(undefined);
     // signIn("credentials", {
@@ -38,7 +39,15 @@ function SigninForm() {
     //     }
     //   }
     // });
-    return router.push("/dashboard");
+    if (
+      values.username == "admin@example.com" &&
+      values.password === "qwerty"
+    ) {
+      return router.push("/dashboard");
+    } else {
+      setLoading(false);
+      setErrorMsg("Invalid password or username");
+    }
   };
 
   const onFinishFailed: FormProps<FieldType>["onFinishFailed"] = () => {
